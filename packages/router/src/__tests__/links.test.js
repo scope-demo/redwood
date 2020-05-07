@@ -15,7 +15,7 @@ describe('<NavLink />', () => {
     const { getByText } = render(
       <LocationProvider location={mockLocation}>
         <NavLink activeClassName="activeTest" to="/dunder-mifflin">
-          Dunder Mifflin
+          Sabre
         </NavLink>
       </LocationProvider>
     )

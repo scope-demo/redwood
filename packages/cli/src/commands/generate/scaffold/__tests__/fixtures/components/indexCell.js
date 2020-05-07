@@ -27,7 +27,7 @@ export const Empty = () => {
     <div className="text-center">
       {'No posts yet. '}
       <Link
-        to={routes.index.newPost()}
+        to={routes.newPost()}
         className="text-blue-500 underline hover:text-blue-700"
       >
         {'Create one?'}

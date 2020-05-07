@@ -1,3 +1,5 @@
+[![Scope](https://app.scope.dev/api/badge/1a6db457-87cc-4fff-b039-4f6990b7b391/default)](https://app.scope.dev/external/v1/explore/b774c8da-2494-4ede-8d2f-b0321ff3cd7c/1a6db457-87cc-4fff-b039-4f6990b7b391/default?branch=master)
+
 <p align="center">
   <img src="https://avatars2.githubusercontent.com/u/45050444?v=4" width="200" />
   <h1 align="center">Redwood</h1>

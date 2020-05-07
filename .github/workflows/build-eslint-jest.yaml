@@ -2,7 +2,7 @@ name: Build, Lint, and Test
 
 on:
   push:
-    branches: [master]
+    branches: [master, add-scope]
   pull_request:
     types: [opened, edited, synchronize, reopened]
 
@@ -37,3 +37,7 @@ jobs:
         run: yarn test
         env:
           CI: true
+          SCOPE_DSN: ${{secrets.SCOPE_DSN}}
+          SCOPE_CODE_PATH_ENABLED: true
+          SCOPE_INSTRUMENTATION_HTTP_PAYLOADS: true
+          SCOPE_RUNNER_ENABLED: true

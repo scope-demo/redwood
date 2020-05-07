@@ -2911,12 +2911,13 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@undefinedlabs/scope-agent@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@undefinedlabs/scope-agent/-/scope-agent-0.5.2.tgz#71b35c6ad9477e0d135441d82789a499a6d185ec"
-  integrity sha512-gqWBjFxzQl6ndt+vp9sQ2KK5pZRPQbt+RrNmQogXDpE++fYh04LyIFB1NxbHAxjWx2b3efCq/Wyadgs+ymvWYg==
+"@undefinedlabs/scope-agent@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@undefinedlabs/scope-agent/-/scope-agent-0.7.0.tgz#7f503fc0d7e7e77dd777da40ecd6ae3656a46439"
+  integrity sha512-udLvcT9CUHZOdKsxnKI7vsOC6ekqdq3jDE8YBLyEEthp5BjNROfI31XLQU3VP7GFNtZcy/BjIRt/SoCxJ/5eqw==
   dependencies:
     "@hapi/sntp" "^3.1.2"
+    agentkeepalive "^4.1.0"
     axios "^0.19.0"
     continuation-local-storage "^3.2.1"
     istanbul-lib-coverage "^3.0.0"
@@ -2925,7 +2926,7 @@
     pako "^1.0.11"
     require-in-the-middle "^5.0.3"
     semver "^7.2.2"
-    uuid "^7.0.1"
+    uuid "^8.0.0"
     yargs "^15.3.1"
 
 "@webassemblyjs/ast@1.9.0":
@@ -3192,6 +3193,15 @@ agentkeepalive@^3.4.1:
   resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-3.5.2.tgz#a113924dd3fa24a0bc3b78108c450c2abee00f67"
   integrity sha512-e0L/HNe6qkQ7H19kTlRRqUibEAwDK5AFk6y3PtMsuut2VAH6+Q4xZml1tNDJD7kSAyqmbG/K08K5WEJYtUrSlQ==
   dependencies:
+    humanize-ms "^1.2.1"
+
+agentkeepalive@^4.1.0:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.1.2.tgz#d7bc3bafd7ea88032f6be22b6f1389b3d42c9c91"
+  integrity sha512-waNHE7tQBBn+2qXucI8HY0o2Y0OBPWldWOWsZwY71JcCm4SvrPnWdceFfB5NIXSqE8Ewq6VR/Qt5b1i69P6KCQ==
+  dependencies:
+    debug "^4.1.0"
+    depd "^1.1.2"
     humanize-ms "^1.2.1"
 
 aggregate-error@3.0.1, aggregate-error@^3.0.0:
@@ -5669,7 +5679,7 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-depd@~1.1.2:
+depd@^1.1.2, depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
@@ -13594,10 +13604,10 @@ uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^7.0.1:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
-  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
+uuid@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.0.0.tgz#bc6ccf91b5ff0ac07bbcdbf1c7c4e150db4dbb6c"
+  integrity sha512-jOXGuXZAWdsTH7eZLtyXMqUb9EcWMGZNbL9YcGBJl4MH4nrxHmZJhEHvyLFrkxo+28uLb/NYRcStH48fnD0Vzw==
 
 v8-compile-cache@2.0.3:
   version "2.0.3"

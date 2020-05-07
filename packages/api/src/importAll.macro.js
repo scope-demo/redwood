@@ -16,6 +16,7 @@ import { getPaths } from '@redwoodjs/internal'
  * ```
  */
 function prevalMacros({ references, state, babel }) {
+  console.log('hey!')
   references.default.forEach((referencePath) => {
     if (referencePath.parentPath.type === 'CallExpression') {
       importAll({ referencePath, state, babel })

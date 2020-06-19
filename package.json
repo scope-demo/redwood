@@ -2,11 +2,12 @@
   "private": true,
   "workspaces": [
     "api",
-    "web",
-    "packages/auth"
+    "web"
   ],
   "devDependencies": {
-    "@redwoodjs/core": "^0.6.1-canary.40"
+    "@redwoodjs/core": "^0.11.0",
+    "@storybook/react": "^5.3.19",
+    "storybook": "^5.3.19"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"

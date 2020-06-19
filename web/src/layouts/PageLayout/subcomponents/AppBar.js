@@ -7,7 +7,7 @@ const UserAuthTools = () => {
 
   return (
     <>
-      {currentUser.email}
+      {currentUser?.email}
       &nbsp;&nbsp;
       <Button onClick={logOut}>Log out</Button>
     </>
